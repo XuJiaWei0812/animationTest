@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .boxmax {
+            width: 150px;
+            height: 300px;
+            overflow: hidden;
+            position: absolute;
+            right: 0;
+            animation: Bgo 5s linear infinite;
+        }
+
+        .tu1 {
+            position: absolute;
+        }
+
+        .tu1 img {
+            transform: translatex(-20px);
+            animation: Ago 1.5s step-start infinite;
+        }
+
+        @keyframes Ago {
+            0% {
+                transform: translatex(0px)
+            }
+
+            14% {
+                transform: translatex(-203px)
+            }
+
+            28% {
+                transform: translatex(-379px)
+            }
+
+            44% {
+                transform: translatex(-568px)
+            }
+
+            58% {
+                transform: translatex(-758px)
+            }
+
+            73% {
+                transform: translatex(-917px)
+            }
+
+            100% {
+                transform: translatex(-1104px)
+            }
+        }
+
+        @keyframes Bgo {
+            0% {
+                transform: translatex(0px)
+            }
+
+            14% {
+                transform: translatex(-299px)
+            }
+
+            28% {
+                transform: translatex(-518px)
+            }
+
+            44% {
+                transform: translatex(-737px)
+            }
+
+            58% {
+                transform: translatex(-956px)
+            }
+
+            73% {
+                transform: translatex(-1175px)
+            }
+
+            100% {
+                transform: translatex(-1394px)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxmax">
+        <div class="tu1"><img src="charector.png" alt=""></div>
+    </div>
+</body>
+
+</html>
