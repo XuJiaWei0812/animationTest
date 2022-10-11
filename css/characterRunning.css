@@ -1,0 +1,77 @@
+.boxmax {
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    animation: Bgo 5s linear infinite;
+}
+
+.tu1 {
+    position: absolute;
+}
+
+.tu1 img {
+    transform: translatex(-20px);
+    animation: Ago 1.5s step-start infinite;
+}
+
+@keyframes Ago {
+    0% {
+        transform: translatex(0px)
+    }
+
+    14% {
+        transform: translatex(-203px)
+    }
+
+    28% {
+        transform: translatex(-379px)
+    }
+
+    44% {
+        transform: translatex(-568px)
+    }
+
+    58% {
+        transform: translatex(-758px)
+    }
+
+    73% {
+        transform: translatex(-917px)
+    }
+
+    100% {
+        transform: translatex(-1104px)
+    }
+}
+
+@keyframes Bgo {
+    0% {
+        transform: translatex(0px)
+    }
+
+    14% {
+        transform: translatex(-299px)
+    }
+
+    28% {
+        transform: translatex(-518px)
+    }
+
+    44% {
+        transform: translatex(-737px)
+    }
+
+    58% {
+        transform: translatex(-956px)
+    }
+
+    73% {
+        transform: translatex(-1175px)
+    }
+
+    100% {
+        transform: translatex(-1394px)
+    }
+}
