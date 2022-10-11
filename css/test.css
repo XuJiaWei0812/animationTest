@@ -1,0 +1,40 @@
+body{
+    overflow-x: hidden;
+}
+.oneGroup{
+    position:absolute;
+    z-index:-1;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.one{
+    animation: zoomIn 2s;
+    animation-fill-mode:backwards;
+}
+
+.twoGroup{
+    position:absolute;
+    z-index:-1;
+    top: 50%;  
+    left: 40%;
+    transform: translateY(-50%);
+    z-index:0;
+}
+.two{
+    animation: fadeIn 2s linear 2s;
+    animation-fill-mode:both;
+}
+
+.threeGroup{
+    position:absolute;
+    z-index:-1;
+    top: 50%;  
+    left: 60%;
+    transform: translateY(-50%);
+    z-index:0;
+}
+.three{
+    animation: backInRight 2s linear 2s;
+    animation-fill-mode:both;
+}
